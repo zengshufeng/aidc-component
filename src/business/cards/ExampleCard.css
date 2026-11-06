@@ -1,0 +1,64 @@
+.example-card {
+  min-width: 132px;
+  padding: 8px 11px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #1d1f23;
+  font-size: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.example-card--alarm {
+  border-color: rgba(229, 72, 77, 0.75);
+}
+
+.example-card--maintenance {
+  border-color: rgba(216, 169, 33, 0.7);
+}
+
+.example-card__head {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 4px;
+}
+
+.example-card__title {
+  font-weight: 600;
+}
+
+.example-card__badge {
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: rgba(112, 200, 120, 0.22);
+  color: #2e9e4f;
+  font-size: 10px;
+}
+
+.example-card--alarm .example-card__badge {
+  background: rgba(229, 72, 77, 0.24);
+  color: #d9383d;
+}
+
+.example-card--maintenance .example-card__badge {
+  background: rgba(216, 169, 33, 0.22);
+  color: #b58a1a;
+}
+
+.example-card__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  line-height: 1.7;
+}
+
+.example-card__key {
+  color: #6b7280;
+  font-size: 11px;
+}
+
+.example-card__val {
+  font-variant-numeric: tabular-nums;
+}

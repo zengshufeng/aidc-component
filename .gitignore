@@ -1,0 +1,12 @@
+node_modules/
+dist/
+offline/
+delivery/
+.offline-build-*/
+.offline-backup-*/
+.offline-build.lock
+.smoke-*
+*.local
+.verification-cache.json
+
+.cache/
